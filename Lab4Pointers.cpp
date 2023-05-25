@@ -87,7 +87,7 @@ float FindAverage(float Array[], int counter)
 	for(int j=1; j<counter; j++)
 		MyTotal += Array[j];
 
-	MyAverage = MyTotal / 2;
+	MyAverage = MyTotal / counter;
 
 	return MyAverage;
 
